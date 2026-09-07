@@ -1,0 +1,15 @@
+# Temporary Files
+*.html
+feltrinelli_data.csv
+
+# Irrelevant Python Byproducts & Sensitive Information
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+venv/
+
+# Irrelevant Windows/Mac Folders
+.DS_Store
+Thumbs.db
