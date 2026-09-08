@@ -32,6 +32,6 @@ jobs:
           DB_NAME: ${{ secrets.DB_NAME }}
 
         run: |
-          python scripts/convert.py
+          python scripts/converter.py
           python scripts/upload_to_db.py
           python scripts/run_analytics.py
